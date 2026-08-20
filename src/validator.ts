@@ -8,7 +8,7 @@ if (titulo.trim().length < 5) {
     }
 
     if (titulo.trim().length > 100) {
-        throw new Error("O título deve possuir no máximo.");
+        throw new Error("O título deve possuir no máximo 100.");
     }
 
 }
